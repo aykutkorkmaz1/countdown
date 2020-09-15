@@ -26,13 +26,13 @@ body {
     width: auto;
     height: auto;
     background-color: lightgray;
-    opacity: 80%;
+    opacity: 90%;
     border-radius: 13px;
     padding: 0px 50px 0px 50px;
 }
 
 .buttons {
-    margin-top: 50px;
+    margin-top: 40px;
     display: flex;
     flex-direction: row;
 }

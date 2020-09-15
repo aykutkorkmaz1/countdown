@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/img/background-main.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto auto auto;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.box {
+    width: auto;
+    height: auto;
+    background-color: lightgray;
+    opacity: 90%;
+    border-radius: 13px;
+    padding: 0px 50px 0px 50px;
+}
+
+.countdowns_list {
+    margin: 20px 0 0 0;
+    width: 70vh;
+    height: 50vh;
+    background-color: #1BD56C;
+    opacity: 90%;
+    border-radius: 13px;
+    padding: 0px 50px 0px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.countdown_page {
+    width: auto;
+    height: auto;
+    padding: 10px 0 10px 0;
+    font-size: 25px;
+    background-color: wheat;
+    border-radius: 8px;
+    border: white;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.buttons {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.btn {
+    width: auto;
+    height: auto;
+    padding: 5px 20px 5px 20px;
+    font-size: 25px;
+    background-color: lightgray;
+    border-radius: 8px;
+    border: white;
+    text-decoration: none;
+    color: black;
+    margin: 0 5px;
+}
