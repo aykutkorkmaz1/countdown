@@ -6,7 +6,6 @@
 
 body {
     background-image: url("/img/apple-time_flies.jpg");
-    background-position: center center;
     background-size: cover;
     display: flex;
     flex-direction: column;
