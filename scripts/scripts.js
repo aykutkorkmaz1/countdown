@@ -1,3 +1,4 @@
+/*
 var countDownDate = new Date("Tue Sep 15 2020 20:00:00").getTime();
 
 var x = setInterval(function() {
@@ -20,10 +21,9 @@ var x = setInterval(function() {
     clearInterval(x);
     document.getElementById("also_expired").innerHTML = "Special event has started!";
   }
-}, 1000);
+}, 1000); */ 
 
-
-/* const daysEl = document.getElementById("days");
+const daysEl = document.getElementById("days");
 const hoursEl = document.getElementById("hours");
 const minsEl = document.getElementById("mins");
 const secondsEl = document.getElementById("seconds");
@@ -53,4 +53,4 @@ function formatTime(time) {
 }
 
 countdown();
-setInterval(countdown, 1000); */
+setInterval(countdown, 1000); 

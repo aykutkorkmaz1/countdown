@@ -23,6 +23,49 @@ body {
     line-height: 30px;
 }
 
+.video {
+    width: 75vh;
+    height: 50vh;
+    border-radius: 10px;
+}
+
+.event_video {
+    align-items: center;
+    margin: 10px 0;
+}
+
+.buttons {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.btn {
+    width: auto;
+    height: auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+  
+  .btn:hover {
+    background-color: gray;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+    color: #fff;
+    transform: translateY(-4px);
+  }
+
+/*
+
 .link {
     color: grey;
     text-decoration: none;
@@ -53,3 +96,5 @@ body {
 .countdown-el span {
     font-size: 1.3rem;
 }
+
+*/

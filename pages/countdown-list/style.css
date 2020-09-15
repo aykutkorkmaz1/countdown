@@ -43,18 +43,31 @@ body {
     flex-direction: column;
 }
 
-.countdown_page {
+.countdown_page{
+    text-align: center;
     width: auto;
     height: auto;
-    padding: 10px 0 10px 0;
+    font-family: 'Poppins', sans-serif;
     font-size: 25px;
-    background-color: wheat;
-    border-radius: 8px;
-    border: white;
-    text-align: center;
+    padding: 5px 20px 5px 20px;
     text-decoration: none;
-    color: black;
-}
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    margin: 10px 0;
+    cursor: pointer;
+    outline: none;
+    }
+  
+  .countdown_page:hover {
+    background-color: gray;
+    box-shadow: 0px 15px 20px rgba(21, 105, 161, 0.4);
+    color: #fff;
+    transform: translateY(-4px);
+  }
 
 .buttons {
     margin-top: 40px;
@@ -74,3 +87,27 @@ body {
     color: black;
     margin: 0 5px;
 }
+
+.btn {
+    width: auto;
+    height: auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+  
+  .btn:hover {
+    background-color: gray;
+    box-shadow: 0px 15px 20px rgba(21, 105, 161, 0.4);
+    color: #fff;
+    transform: translateY(-4px);
+  }
