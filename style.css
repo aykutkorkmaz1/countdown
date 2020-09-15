@@ -5,7 +5,8 @@
 
 body {
     background-image: url("./img/background-main.jpg");
-    background-position: center center;
+    background-size: cover;
+    background-position: auto;
     display: flex;
     flex-direction: column;
     margin: 100px auto auto auto;
