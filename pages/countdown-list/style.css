@@ -41,6 +41,11 @@ body {
     flex-direction: column;
 }
 
+.brand_logo {
+    width: 30px;
+    height: 30px;
+}
+
 .countdown_page{
     text-align: center;
     width: auto;
