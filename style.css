@@ -4,12 +4,13 @@
 }
 
 body {
-    background-image: url("./img/background-main.jpg");
-    background-size: cover;
-    background-position: auto;
+    background-image: url("/img/background-main.jpg"); 
+    background-position: center center;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
-    margin: 100px auto auto auto;
+    min-height: 100vh;
+    margin: 20px 0;
     align-items: center;
     font-family: "Poppins", sans-serif;
 }
