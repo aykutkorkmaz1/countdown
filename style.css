@@ -56,7 +56,7 @@ body {
     }
   
   .btn:hover {
-    background-color: gray;
+    background-color: #feac13;
     box-shadow: 0px 15px 20px rgba(21, 105, 161, 0.4);
     color: #fff;
     transform: translateY(-4px);

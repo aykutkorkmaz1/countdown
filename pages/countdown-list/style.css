@@ -35,7 +35,7 @@ body {
     margin: 20px 0 0 0;
     width: 70vh;
     height: 50vh;
-    background-color: #1BD56C;
+    background-color: #0f79c1;
     opacity: 90%;
     border-radius: 13px;
     padding: 0px 50px 0px 50px;
@@ -76,7 +76,7 @@ body {
     }
   
   .countdown_page:hover {
-    background-color: rgb(236, 93, 49);
+    background-color: #feac13;
     box-shadow: 0px 15px 20px rgba(21, 105, 161, 0.4);
     color: #fff;
   }
@@ -118,7 +118,7 @@ body {
     }
   
   .btn:hover {
-    background-color: gray;
+    background-color: #feac13;
     box-shadow: 0px 15px 20px rgba(21, 105, 161, 0.4);
     color: #fff;
     transform: translateY(-4px);
